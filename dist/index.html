@@ -8,9 +8,9 @@
   <script src="index.js" defer></script>
   <title>Document</title>
 </head>
-<body class="font-sanity bg-slate-100">
+<body class="font-sanity bg-slate-100 cursor-default">
   <div>
-  <div id="burger" class="absolute hidden text-blue-500">></div>
+  <div id="burger" class="absolute text-blue-500">></div>
   <div id="sidebar" class="bg-slate-300 w-44 h-screen hidden">
       <div class="">
         <div class="text-blue-500 px-5 inline-block">RANDOM</div>
@@ -61,27 +61,40 @@
   </div>
   <div class="flex justify-evenly sticky top-0 bg-slate-100 z-10">
     <div class="w-auto">
-      <div class="peer mt-6">TRAVEL</div>
-      <div class="bg-blue-600 h-1.5 dark:bg-blue-400 w-0 peer-hover:animate-progressbar mb-6"></div>
+      <div id="travel" class="peer mt-6">TRAVEL</div>
+      <div id="travel-bar" class="bg-blue-600 h-1.5 dark:bg-blue-500 rounded-sm w-0 peer-hover:animate-progressbar mb-6"></div>
     </div>
     <div class="w-auto">
       <div class="peer mt-6">ABOUT US</div>
-      <div class="bg-blue-600 h-1.5 dark:bg-blue-400 w-0 peer-hover:animate-progressbar mb-6"></div>
+      <div class="bg-blue-600 h-1.5 dark:bg-blue-500 rounded-sm w-0 peer-hover:animate-progressbar mb-6"></div>
     </div>
     <div class="w-auto">
       <div class="peer mt-6">CONTACT US</div>
-      <div class="bg-blue-600 h-1.5 dark:bg-blue-400 w-0 peer-hover:animate-progressbar mb-6"></div>
+      <div class="bg-blue-600 h-1.5 dark:bg-blue-500 rounded-sm w-0 peer-hover:animate-progressbar mb-6"></div>
     </div>
     <div class="w-auto">
       <div class="peer mt-6">ENVIRONMENT</div>
-      <div class="bg-blue-600 h-1.5 dark:bg-blue-400 w-0 peer-hover:animate-progressbar mb-6"></div>
-    </div>
+      <div class="bg-blue-600 h-1.5 dark:bg-blue-500 rounded-sm w-0 peer-hover:animate-progressbar mb-6"></div>
+    </div>m-6
   </div>
   <div class="relative">
     <img src="https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704__480.jpg" alt="bird" class="w-full"></img>
     <div class="border-b-[31vw] border-b-slate-100 border-solid border-l-[100vw]
     border-l-transparent w-0 h-0 absolute bottom-0"></div>
-    <p class="absolute text-white text-[4rem] top-[25%] left-[28%] underline w">WELCOME TO BAHAMAS</p>
+    <p class="absolute text-white text-[4rem] top-[25%] left-[28%] underline">WELCOME TO BAHAMAS</p>
+  </div>
+  <div id="dropdown" class="w-[80%] hidden fixed top-[15%] left-[10%] p-6 rounded-xl bg-white z-10 flex">
+    <div class="m-6">Tickets</div>
+    <div class="m-6">Travel info</div>
+    <div class="m-6">Embassy</div>
+    <div class="m-6">Covid-19</div>
+    <div id="close-info" class="absolute top-0 right-2 p-3">x</div>
+  </div>
+  <div class="flex flex-col justify-center text-xl m-16">
+    <div class="w-5/6 m-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+    <div class="w-5/6 m-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+    <div class="w-5/6 m-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+    <div class="w-5/6 m-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
   </div>
 </body>
 </html>
